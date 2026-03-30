@@ -1,0 +1,919 @@
+"param","beta"
+"Intercept",-1.39635159837765
+"sent_centered",3.59550034034728
+"C(S1)[1]",0.301239724239661
+"C(S2)[1]",-0.485700130085862
+"C(time_type)[weekend]",-1.30587612198711
+"C(time_type)[unknown]",-1.3584102539477
+"C(time_time_simple)[morning]",0.0862134113326767
+"C(time_time_simple)[night]",0.0222268044791768
+"C(time_time_simple)[unknown]",-0.563097589725548
+"C(situation_major)[unknown]",0.0126188970604851
+"C(situation_major)[working]",0.713040210799302
+"C(situation_major)[leisure]",2.04952956857775
+"C(situation_major)[shopping]",-1.81092592269516
+"C(situation_major)[morningrituals]",-0.913834541570257
+"C(situation_major)[workingout]",1.25966971261123
+"C(situation_major)[housework]",0.0182508408818899
+"C(situation_major)[social]",-0.669161140305445
+"C(notification_type)[restaurant]",0.730982540992552
+"C(weather_temperature)[unknown]",-0.714638839730462
+"C(weather_temperature)[freezing]",1.78662142269968
+"C(weather_temperature)[warm]",0.446784784921657
+"C(weather_temperature)[hot]",-0.0294628107194857
+"C(engagement)[1]",0.737646087116659
+"sent_centered:C(S1)[1]",-0.153126914692279
+"sent_centered:C(S2)[1]",0.110252333576546
+"sent_centered:C(time_type)[weekend]",0.265213613157942
+"sent_centered:C(time_type)[unknown]",0.194274932442775
+"sent_centered:C(time_time_simple)[morning]",-0.0104863084052882
+"sent_centered:C(time_time_simple)[night]",-0.0498739038536451
+"sent_centered:C(time_time_simple)[unknown]",0.188933953972483
+"sent_centered:C(situation_major)[unknown]",0.307285535324196
+"sent_centered:C(situation_major)[working]",-0.247584665743186
+"sent_centered:C(situation_major)[leisure]",0.106415980868278
+"sent_centered:C(situation_major)[shopping]",0.0370354565377227
+"sent_centered:C(situation_major)[morningrituals]",0.108152390376563
+"sent_centered:C(situation_major)[workingout]",0.347663393780368
+"sent_centered:C(situation_major)[housework]",-0.286527552691623
+"sent_centered:C(situation_major)[social]",0.384520780793588
+"sent_centered:C(notification_type)[restaurant]",0.046236024663477
+"sent_centered:C(weather_temperature)[unknown]",0.0222268646824034
+"sent_centered:C(weather_temperature)[freezing]",-0.0968503984626206
+"sent_centered:C(weather_temperature)[warm]",0.131423737901021
+"sent_centered:C(weather_temperature)[hot]",0.26945722183242
+"sent_centered:C(engagement)[1]",0.107253463919202
+"C(S1):C(time_type)[1, weekend]",-0.223287947618966
+"C(S1):C(time_type)[1, unknown]",-0.179780821198761
+"C(S1):C(time_time_simple)[1, morning]",0.132557154775903
+"C(S1):C(time_time_simple)[1, night]",0.163607928201661
+"C(S1):C(time_time_simple)[1, unknown]",0.230549290509909
+"C(S1):C(situation_major)[1, unknown]",0.206648336898307
+"C(S1):C(situation_major)[1, working]",0.177661349609177
+"C(S1):C(situation_major)[1, leisure]",0.0594305298225652
+"C(S1):C(situation_major)[1, shopping]",-0.0240660879942245
+"C(S1):C(situation_major)[1, morningrituals]",-0.0575791676987846
+"C(S1):C(situation_major)[1, workingout]",-0.0969289503531189
+"C(S1):C(situation_major)[1, housework]",-0.281626569841175
+"C(S1):C(situation_major)[1, social]",-0.0776152429833578
+"C(S1):C(notification_type)[1, restaurant]",0.222286406191307
+"C(S1):C(weather_temperature)[1, unknown]",-0.126728880068948
+"C(S1):C(weather_temperature)[1, freezing]",-0.272615695854597
+"C(S1):C(weather_temperature)[1, warm]",-0.127156847819342
+"C(S1):C(weather_temperature)[1, hot]",-0.0197179727447533
+"C(S1):C(engagement)[1, 1]",-0.379035383711794
+"C(S2):C(time_type)[1, weekend]",-0.0915119047180104
+"C(S2):C(time_type)[1, unknown]",0.131598995424445
+"C(S2):C(time_time_simple)[1, morning]",-0.320828166895677
+"C(S2):C(time_time_simple)[1, night]",0.0565058079260059
+"C(S2):C(time_time_simple)[1, unknown]",-0.20901327314033
+"C(S2):C(situation_major)[1, unknown]",0.106124611411702
+"C(S2):C(situation_major)[1, working]",0.0808234271230551
+"C(S2):C(situation_major)[1, leisure]",0.297912301358395
+"C(S2):C(situation_major)[1, shopping]",0.290371305170113
+"C(S2):C(situation_major)[1, morningrituals]",-0.238426075700193
+"C(S2):C(situation_major)[1, workingout]",-0.331389765648543
+"C(S2):C(situation_major)[1, housework]",0.0541690327589215
+"C(S2):C(situation_major)[1, social]",0.456502560924982
+"C(S2):C(notification_type)[1, restaurant]",-0.22069388166209
+"C(S2):C(weather_temperature)[1, unknown]",-0.190560743016358
+"C(S2):C(weather_temperature)[1, freezing]",-0.0319223835146704
+"C(S2):C(weather_temperature)[1, warm]",-0.204157946033131
+"C(S2):C(weather_temperature)[1, hot]",0.0571904353853253
+"C(S2):C(engagement)[1, 1]",0.180412088141142
+"C(time_type):C(time_time_simple)[weekend, morning]",0.587361331899698
+"C(time_type):C(time_time_simple)[unknown, morning]",-0.487973260648917
+"C(time_type):C(time_time_simple)[weekend, night]",-0.0651658436288998
+"C(time_type):C(time_time_simple)[unknown, night]",-0.346292599013434
+"C(time_type):C(time_time_simple)[weekend, unknown]",-0.20298431657426
+"C(time_type):C(time_time_simple)[unknown, unknown]",0.257594788217688
+"C(time_type):C(situation_major)[weekend, unknown]",-0.0207897292206663
+"C(time_type):C(situation_major)[unknown, unknown]",0.261866012369664
+"C(time_type):C(situation_major)[weekend, working]",0.247149377099317
+"C(time_type):C(situation_major)[unknown, working]",-0.142299608826516
+"C(time_type):C(situation_major)[weekend, leisure]",0.177343845789268
+"C(time_type):C(situation_major)[unknown, leisure]",0.0276273079007823
+"C(time_type):C(situation_major)[weekend, shopping]",0.378838658066415
+"C(time_type):C(situation_major)[unknown, shopping]",0.00911449915054907
+"C(time_type):C(situation_major)[weekend, morningrituals]",-0.204184612859683
+"C(time_type):C(situation_major)[unknown, morningrituals]",0.275743522903537
+"C(time_type):C(situation_major)[weekend, workingout]",-0.0817613147048951
+"C(time_type):C(situation_major)[unknown, workingout]",-0.0543821791968128
+"C(time_type):C(situation_major)[weekend, housework]",-0.798645227012587
+"C(time_type):C(situation_major)[unknown, housework]",0.203672357755199
+"C(time_type):C(situation_major)[weekend, social]",0.0688383513852103
+"C(time_type):C(situation_major)[unknown, social]",0.138641295780435
+"C(time_type):C(notification_type)[weekend, restaurant]",-0.448362879596849
+"C(time_type):C(notification_type)[unknown, restaurant]",-0.0603609450863827
+"C(time_type):C(weather_temperature)[weekend, unknown]",0.0538155386491203
+"C(time_type):C(weather_temperature)[unknown, unknown]",-0.198882461775117
+"C(time_type):C(weather_temperature)[weekend, freezing]",0.399203175188317
+"C(time_type):C(weather_temperature)[unknown, freezing]",0.454660053505711
+"C(time_type):C(weather_temperature)[weekend, warm]",-0.285821127981842
+"C(time_type):C(weather_temperature)[unknown, warm]",0.0256392116902721
+"C(time_type):C(weather_temperature)[weekend, hot]",-0.274605508162102
+"C(time_type):C(weather_temperature)[unknown, hot]",-0.127283547850249
+"C(time_type):C(engagement)[weekend, 1]",-0.175511040109133
+"C(time_type):C(engagement)[unknown, 1]",-0.180929107232298
+"C(time_time_simple):C(situation_major)[morning, unknown]",-0.303065123227586
+"C(time_time_simple):C(situation_major)[night, unknown]",0.22506053017003
+"C(time_time_simple):C(situation_major)[unknown, unknown]",-0.590788150436381
+"C(time_time_simple):C(situation_major)[morning, working]",0.638345707394491
+"C(time_time_simple):C(situation_major)[night, working]",0.0261653320552587
+"C(time_time_simple):C(situation_major)[unknown, working]",-0.176310596265772
+"C(time_time_simple):C(situation_major)[morning, leisure]",-0.126283926319518
+"C(time_time_simple):C(situation_major)[night, leisure]",-0.267382625972552
+"C(time_time_simple):C(situation_major)[unknown, leisure]",-0.330334799899482
+"C(time_time_simple):C(situation_major)[morning, shopping]",0.221804059684554
+"C(time_time_simple):C(situation_major)[night, shopping]",-0.1116047109796
+"C(time_time_simple):C(situation_major)[unknown, shopping]",0.281082247482154
+"C(time_time_simple):C(situation_major)[morning, morningrituals]",0.128678747675903
+"C(time_time_simple):C(situation_major)[night, morningrituals]",-0.127785087933661
+"C(time_time_simple):C(situation_major)[unknown, morningrituals]",0.107290641800866
+"C(time_time_simple):C(situation_major)[morning, workingout]",0.105748590869814
+"C(time_time_simple):C(situation_major)[night, workingout]",0.354846220960711
+"C(time_time_simple):C(situation_major)[unknown, workingout]",0.0790292499296816
+"C(time_time_simple):C(situation_major)[morning, housework]",0.0149117431577703
+"C(time_time_simple):C(situation_major)[night, housework]",0.303476653597087
+"C(time_time_simple):C(situation_major)[unknown, housework]",0.0341066619949687
+"C(time_time_simple):C(situation_major)[morning, social]",-0.0536866541400268
+"C(time_time_simple):C(situation_major)[night, social]",0.413143990218433
+"C(time_time_simple):C(situation_major)[unknown, social]",-0.096922634103192
+"C(time_time_simple):C(notification_type)[morning, restaurant]",-0.05263261114143
+"C(time_time_simple):C(notification_type)[night, restaurant]",0.13691640920636
+"C(time_time_simple):C(notification_type)[unknown, restaurant]",0.00185036229618113
+"C(time_time_simple):C(weather_temperature)[morning, unknown]",-0.281168940819226
+"C(time_time_simple):C(weather_temperature)[night, unknown]",0.211024001552653
+"C(time_time_simple):C(weather_temperature)[unknown, unknown]",0.140664300040978
+"C(time_time_simple):C(weather_temperature)[morning, freezing]",0.294140046162318
+"C(time_time_simple):C(weather_temperature)[night, freezing]",0.235334083354895
+"C(time_time_simple):C(weather_temperature)[unknown, freezing]",0.15005404274151
+"C(time_time_simple):C(weather_temperature)[morning, warm]",-0.182036237335571
+"C(time_time_simple):C(weather_temperature)[night, warm]",-0.0632745317473588
+"C(time_time_simple):C(weather_temperature)[unknown, warm]",0.0405989096832979
+"C(time_time_simple):C(weather_temperature)[morning, hot]",-0.109273683754028
+"C(time_time_simple):C(weather_temperature)[night, hot]",0.357290314385894
+"C(time_time_simple):C(weather_temperature)[unknown, hot]",-0.0003598838641699
+"C(time_time_simple):C(engagement)[morning, 1]",0.378804741689399
+"C(time_time_simple):C(engagement)[night, 1]",-0.0359020198268184
+"C(time_time_simple):C(engagement)[unknown, 1]",0.469393334712881
+"C(situation_major):C(notification_type)[unknown, restaurant]",0.00257890266872043
+"C(situation_major):C(notification_type)[working, restaurant]",-0.24821368787808
+"C(situation_major):C(notification_type)[leisure, restaurant]",-0.0747546650667442
+"C(situation_major):C(notification_type)[shopping, restaurant]",0.137893013429789
+"C(situation_major):C(notification_type)[morningrituals, restaurant]",0.261268665671456
+"C(situation_major):C(notification_type)[workingout, restaurant]",-0.437950686439615
+"C(situation_major):C(notification_type)[housework, restaurant]",-0.24605025176357
+"C(situation_major):C(notification_type)[social, restaurant]",-0.0575934395365243
+"C(situation_major):C(weather_temperature)[unknown, unknown]",0.024087798778397
+"C(situation_major):C(weather_temperature)[working, unknown]",-0.236307979353413
+"C(situation_major):C(weather_temperature)[leisure, unknown]",-0.312842532717289
+"C(situation_major):C(weather_temperature)[shopping, unknown]",-0.126893846020486
+"C(situation_major):C(weather_temperature)[morningrituals, unknown]",-0.00425955205474168
+"C(situation_major):C(weather_temperature)[workingout, unknown]",0.241431743139841
+"C(situation_major):C(weather_temperature)[housework, unknown]",-0.172839738341048
+"C(situation_major):C(weather_temperature)[social, unknown]",0.119824492287196
+"C(situation_major):C(weather_temperature)[unknown, freezing]",0.492176604090559
+"C(situation_major):C(weather_temperature)[working, freezing]",0.0168832228274013
+"C(situation_major):C(weather_temperature)[leisure, freezing]",0.21928403057157
+"C(situation_major):C(weather_temperature)[shopping, freezing]",-0.208120082830792
+"C(situation_major):C(weather_temperature)[morningrituals, freezing]",-0.176257000548859
+"C(situation_major):C(weather_temperature)[workingout, freezing]",0.299184105525432
+"C(situation_major):C(weather_temperature)[housework, freezing]",0.201232434538352
+"C(situation_major):C(weather_temperature)[social, freezing]",0.055108206938065
+"C(situation_major):C(weather_temperature)[unknown, warm]",0.34760281848387
+"C(situation_major):C(weather_temperature)[working, warm]",-0.244274154380826
+"C(situation_major):C(weather_temperature)[leisure, warm]",0.241920712793574
+"C(situation_major):C(weather_temperature)[shopping, warm]",-0.22863164531912
+"C(situation_major):C(weather_temperature)[morningrituals, warm]",-0.316106780593259
+"C(situation_major):C(weather_temperature)[workingout, warm]",-0.019817556251899
+"C(situation_major):C(weather_temperature)[housework, warm]",0.179085996964957
+"C(situation_major):C(weather_temperature)[social, warm]",-0.291510335413807
+"C(situation_major):C(weather_temperature)[unknown, hot]",0.302185400320974
+"C(situation_major):C(weather_temperature)[working, hot]",-0.149709230151449
+"C(situation_major):C(weather_temperature)[leisure, hot]",0.0171581774091698
+"C(situation_major):C(weather_temperature)[shopping, hot]",-0.0258284785203537
+"C(situation_major):C(weather_temperature)[morningrituals, hot]",0.375340641081484
+"C(situation_major):C(weather_temperature)[workingout, hot]",0.305534183922862
+"C(situation_major):C(weather_temperature)[housework, hot]",-0.241467960268086
+"C(situation_major):C(weather_temperature)[social, hot]",0.207131792416022
+"C(situation_major):C(engagement)[unknown, 1]",0.438833475639803
+"C(situation_major):C(engagement)[working, 1]",0.0181823904906884
+"C(situation_major):C(engagement)[leisure, 1]",-0.777570059540499
+"C(situation_major):C(engagement)[shopping, 1]",-0.208152939449939
+"C(situation_major):C(engagement)[morningrituals, 1]",-0.391121845818234
+"C(situation_major):C(engagement)[workingout, 1]",-0.426546871179985
+"C(situation_major):C(engagement)[housework, 1]",0.0819210715813462
+"C(situation_major):C(engagement)[social, 1]",-0.0476158141454562
+"C(notification_type):C(weather_temperature)[restaurant, unknown]",-0.206422675282939
+"C(notification_type):C(weather_temperature)[restaurant, freezing]",0.228354556571545
+"C(notification_type):C(weather_temperature)[restaurant, warm]",-0.124292363367775
+"C(notification_type):C(weather_temperature)[restaurant, hot]",0.0902391854460734
+"C(notification_type):C(engagement)[restaurant, 1]",-0.317448697829324
+"C(weather_temperature):C(engagement)[unknown, 1]",-0.0899576584981433
+"C(weather_temperature):C(engagement)[freezing, 1]",0.464916363262509
+"C(weather_temperature):C(engagement)[warm, 1]",0.345013733829266
+"C(weather_temperature):C(engagement)[hot, 1]",0.529381447064636
+"sent_centered:C(S1):C(time_type)[1, weekend]",-0.0410542867715846
+"sent_centered:C(S1):C(time_type)[1, unknown]",0.118871597081241
+"sent_centered:C(S1):C(time_time_simple)[1, morning]",-0.0195324554227938
+"sent_centered:C(S1):C(time_time_simple)[1, night]",-0.062594812549712
+"sent_centered:C(S1):C(time_time_simple)[1, unknown]",-0.0534808160884295
+"sent_centered:C(S1):C(situation_major)[1, unknown]",0.017079868173277
+"sent_centered:C(S1):C(situation_major)[1, working]",-0.0589027825764002
+"sent_centered:C(S1):C(situation_major)[1, leisure]",-0.0766351249033348
+"sent_centered:C(S1):C(situation_major)[1, shopping]",-0.0475537911518786
+"sent_centered:C(S1):C(situation_major)[1, morningrituals]",0.0466233721273699
+"sent_centered:C(S1):C(situation_major)[1, workingout]",0.0191186120349358
+"sent_centered:C(S1):C(situation_major)[1, housework]",0.0206308968101147
+"sent_centered:C(S1):C(situation_major)[1, social]",-0.0522608011905162
+"sent_centered:C(S1):C(notification_type)[1, restaurant]",-0.0575931367345538
+"sent_centered:C(S1):C(weather_temperature)[1, unknown]",-0.0133098511423737
+"sent_centered:C(S1):C(weather_temperature)[1, freezing]",0.0461517074925079
+"sent_centered:C(S1):C(weather_temperature)[1, warm]",-0.124985463746886
+"sent_centered:C(S1):C(weather_temperature)[1, hot]",-0.0442568343615679
+"sent_centered:C(S1):C(engagement)[1, 1]",0.00724836514067068
+"sent_centered:C(S2):C(time_type)[1, weekend]",-0.0838938949946698
+"sent_centered:C(S2):C(time_type)[1, unknown]",0.065946470785745
+"sent_centered:C(S2):C(time_time_simple)[1, morning]",-0.00926429137884294
+"sent_centered:C(S2):C(time_time_simple)[1, night]",-0.0227778329887623
+"sent_centered:C(S2):C(time_time_simple)[1, unknown]",-0.0244982708604392
+"sent_centered:C(S2):C(situation_major)[1, unknown]",0.0443034139245985
+"sent_centered:C(S2):C(situation_major)[1, working]",0.000356533412081554
+"sent_centered:C(S2):C(situation_major)[1, leisure]",0.035809157167926
+"sent_centered:C(S2):C(situation_major)[1, shopping]",0.0182978246816316
+"sent_centered:C(S2):C(situation_major)[1, morningrituals]",0.0106761907561701
+"sent_centered:C(S2):C(situation_major)[1, workingout]",-0.0468229277032532
+"sent_centered:C(S2):C(situation_major)[1, housework]",-0.0611946463858387
+"sent_centered:C(S2):C(situation_major)[1, social]",-0.063792307109455
+"sent_centered:C(S2):C(notification_type)[1, restaurant]",0.0973450145131379
+"sent_centered:C(S2):C(weather_temperature)[1, unknown]",0.0689208564406764
+"sent_centered:C(S2):C(weather_temperature)[1, freezing]",-0.0458581861769564
+"sent_centered:C(S2):C(weather_temperature)[1, warm]",-0.0252094378641677
+"sent_centered:C(S2):C(weather_temperature)[1, hot]",-0.0338046224110341
+"sent_centered:C(S2):C(engagement)[1, 1]",-0.00831128575076833
+"sent_centered:C(time_type):C(time_time_simple)[weekend, morning]",-0.129602936498693
+"sent_centered:C(time_type):C(time_time_simple)[unknown, morning]",0.0545135862159637
+"sent_centered:C(time_type):C(time_time_simple)[weekend, night]",-0.0937939607381
+"sent_centered:C(time_type):C(time_time_simple)[unknown, night]",0.053301130948682
+"sent_centered:C(time_type):C(time_time_simple)[weekend, unknown]",-0.02211631890471
+"sent_centered:C(time_type):C(time_time_simple)[unknown, unknown]",0.0452933377112943
+"sent_centered:C(time_type):C(situation_major)[weekend, unknown]",-0.0203995305090687
+"sent_centered:C(time_type):C(situation_major)[unknown, unknown]",0.0619072126868222
+"sent_centered:C(time_type):C(situation_major)[weekend, working]",-0.0573248740048254
+"sent_centered:C(time_type):C(situation_major)[unknown, working]",-0.0106364902602863
+"sent_centered:C(time_type):C(situation_major)[weekend, leisure]",-0.0995899881430156
+"sent_centered:C(time_type):C(situation_major)[unknown, leisure]",-0.00169084327005454
+"sent_centered:C(time_type):C(situation_major)[weekend, shopping]",0.0248295389092389
+"sent_centered:C(time_type):C(situation_major)[unknown, shopping]",-0.11310998726799
+"sent_centered:C(time_type):C(situation_major)[weekend, morningrituals]",0.109737770926006
+"sent_centered:C(time_type):C(situation_major)[unknown, morningrituals]",-0.0280665627469482
+"sent_centered:C(time_type):C(situation_major)[weekend, workingout]",-0.0300576014864293
+"sent_centered:C(time_type):C(situation_major)[unknown, workingout]",-0.00382494462203645
+"sent_centered:C(time_type):C(situation_major)[weekend, housework]",-0.00490935874143011
+"sent_centered:C(time_type):C(situation_major)[unknown, housework]",-0.049050437457737
+"sent_centered:C(time_type):C(situation_major)[weekend, social]",-0.103943471233988
+"sent_centered:C(time_type):C(situation_major)[unknown, social]",-0.0577703198825159
+"sent_centered:C(time_type):C(notification_type)[weekend, restaurant]",0.035806062539795
+"sent_centered:C(time_type):C(notification_type)[unknown, restaurant]",-0.0202778132558328
+"sent_centered:C(time_type):C(weather_temperature)[weekend, unknown]",0.0206877932217042
+"sent_centered:C(time_type):C(weather_temperature)[unknown, unknown]",0.0588145798321506
+"sent_centered:C(time_type):C(weather_temperature)[weekend, freezing]",0.0117876567996213
+"sent_centered:C(time_type):C(weather_temperature)[unknown, freezing]",-0.00754624765550199
+"sent_centered:C(time_type):C(weather_temperature)[weekend, warm]",0.0020489605931381
+"sent_centered:C(time_type):C(weather_temperature)[unknown, warm]",-0.0168775137939049
+"sent_centered:C(time_type):C(weather_temperature)[weekend, hot]",0.012497748587568
+"sent_centered:C(time_type):C(weather_temperature)[unknown, hot]",0.032019925754167
+"sent_centered:C(time_type):C(engagement)[weekend, 1]",0.158061663972986
+"sent_centered:C(time_type):C(engagement)[unknown, 1]",0.0221947662727556
+"sent_centered:C(time_time_simple):C(situation_major)[morning, unknown]",0.0260168771179311
+"sent_centered:C(time_time_simple):C(situation_major)[night, unknown]",-0.054960753657561
+"sent_centered:C(time_time_simple):C(situation_major)[unknown, unknown]",0.0819462124216368
+"sent_centered:C(time_time_simple):C(situation_major)[morning, working]",-0.0848780871098621
+"sent_centered:C(time_time_simple):C(situation_major)[night, working]",0.0524659242714554
+"sent_centered:C(time_time_simple):C(situation_major)[unknown, working]",-0.0412441166710103
+"sent_centered:C(time_time_simple):C(situation_major)[morning, leisure]",-0.0542305794055539
+"sent_centered:C(time_time_simple):C(situation_major)[night, leisure]",-0.00346783218801441
+"sent_centered:C(time_time_simple):C(situation_major)[unknown, leisure]",-0.0229020055012254
+"sent_centered:C(time_time_simple):C(situation_major)[morning, shopping]",0.0833669216712101
+"sent_centered:C(time_time_simple):C(situation_major)[night, shopping]",0.0587172702564722
+"sent_centered:C(time_time_simple):C(situation_major)[unknown, shopping]",0.058882335643781
+"sent_centered:C(time_time_simple):C(situation_major)[morning, morningrituals]",0.137262130926109
+"sent_centered:C(time_time_simple):C(situation_major)[night, morningrituals]",-7.86563538808288e-05
+"sent_centered:C(time_time_simple):C(situation_major)[unknown, morningrituals]",-0.0290013170745642
+"sent_centered:C(time_time_simple):C(situation_major)[morning, workingout]",-0.103075617575471
+"sent_centered:C(time_time_simple):C(situation_major)[night, workingout]",-0.0693433984430399
+"sent_centered:C(time_time_simple):C(situation_major)[unknown, workingout]",0.0213340169312672
+"sent_centered:C(time_time_simple):C(situation_major)[morning, housework]",-0.00515585661172006
+"sent_centered:C(time_time_simple):C(situation_major)[night, housework]",0.0246360595531386
+"sent_centered:C(time_time_simple):C(situation_major)[unknown, housework]",-0.099490718090895
+"sent_centered:C(time_time_simple):C(situation_major)[morning, social]",0.069568186524482
+"sent_centered:C(time_time_simple):C(situation_major)[night, social]",0.0245239930320699
+"sent_centered:C(time_time_simple):C(situation_major)[unknown, social]",0.0271198179349907
+"sent_centered:C(time_time_simple):C(notification_type)[morning, restaurant]",0.164621613499215
+"sent_centered:C(time_time_simple):C(notification_type)[night, restaurant]",0.00960588160647309
+"sent_centered:C(time_time_simple):C(notification_type)[unknown, restaurant]",0.0295878574818841
+"sent_centered:C(time_time_simple):C(weather_temperature)[morning, unknown]",0.0269402125504956
+"sent_centered:C(time_time_simple):C(weather_temperature)[night, unknown]",-0.00106657636969065
+"sent_centered:C(time_time_simple):C(weather_temperature)[unknown, unknown]",-0.000230199384288177
+"sent_centered:C(time_time_simple):C(weather_temperature)[morning, freezing]",-0.0683192893093942
+"sent_centered:C(time_time_simple):C(weather_temperature)[night, freezing]",-0.025533910635685
+"sent_centered:C(time_time_simple):C(weather_temperature)[unknown, freezing]",0.025290626042997
+"sent_centered:C(time_time_simple):C(weather_temperature)[morning, warm]",0.0505385479194433
+"sent_centered:C(time_time_simple):C(weather_temperature)[night, warm]",0.00195716637436613
+"sent_centered:C(time_time_simple):C(weather_temperature)[unknown, warm]",-0.105854692594001
+"sent_centered:C(time_time_simple):C(weather_temperature)[morning, hot]",-0.012687680620212
+"sent_centered:C(time_time_simple):C(weather_temperature)[night, hot]",-0.0610820959255544
+"sent_centered:C(time_time_simple):C(weather_temperature)[unknown, hot]",-0.0949197606589758
+"sent_centered:C(time_time_simple):C(engagement)[morning, 1]",-0.0912645037312274
+"sent_centered:C(time_time_simple):C(engagement)[night, 1]",-0.00451930405589999
+"sent_centered:C(time_time_simple):C(engagement)[unknown, 1]",-0.0538280197907877
+"sent_centered:C(situation_major):C(notification_type)[unknown, restaurant]",0.105696190969779
+"sent_centered:C(situation_major):C(notification_type)[working, restaurant]",-0.0143572749628783
+"sent_centered:C(situation_major):C(notification_type)[leisure, restaurant]",0.0645295921607116
+"sent_centered:C(situation_major):C(notification_type)[shopping, restaurant]",-0.0442509043157039
+"sent_centered:C(situation_major):C(notification_type)[morningrituals, restaurant]",-0.096530078848166
+"sent_centered:C(situation_major):C(notification_type)[workingout, restaurant]",-0.116569031364237
+"sent_centered:C(situation_major):C(notification_type)[housework, restaurant]",0.050259115873792
+"sent_centered:C(situation_major):C(notification_type)[social, restaurant]",-0.0800488562174133
+"sent_centered:C(situation_major):C(weather_temperature)[unknown, unknown]",0.0443976297704047
+"sent_centered:C(situation_major):C(weather_temperature)[working, unknown]",-0.060762348416173
+"sent_centered:C(situation_major):C(weather_temperature)[leisure, unknown]",-0.0406367694469703
+"sent_centered:C(situation_major):C(weather_temperature)[shopping, unknown]",-0.0309839610565676
+"sent_centered:C(situation_major):C(weather_temperature)[morningrituals, unknown]",-0.00491641319620045
+"sent_centered:C(situation_major):C(weather_temperature)[workingout, unknown]",-0.00556442364081766
+"sent_centered:C(situation_major):C(weather_temperature)[housework, unknown]",-0.0705620510916827
+"sent_centered:C(situation_major):C(weather_temperature)[social, unknown]",0.0670084313211259
+"sent_centered:C(situation_major):C(weather_temperature)[unknown, freezing]",0.0443508957673571
+"sent_centered:C(situation_major):C(weather_temperature)[working, freezing]",-0.0267967232752643
+"sent_centered:C(situation_major):C(weather_temperature)[leisure, freezing]",-0.0601826569568484
+"sent_centered:C(situation_major):C(weather_temperature)[shopping, freezing]",0.0172586263910454
+"sent_centered:C(situation_major):C(weather_temperature)[morningrituals, freezing]",0.0636051714352464
+"sent_centered:C(situation_major):C(weather_temperature)[workingout, freezing]",-0.0523229443675232
+"sent_centered:C(situation_major):C(weather_temperature)[housework, freezing]",-0.0384843348210277
+"sent_centered:C(situation_major):C(weather_temperature)[social, freezing]",0.0423430597597411
+"sent_centered:C(situation_major):C(weather_temperature)[unknown, warm]",-0.0429665160140761
+"sent_centered:C(situation_major):C(weather_temperature)[working, warm]",-0.0538760436111514
+"sent_centered:C(situation_major):C(weather_temperature)[leisure, warm]",0.0437115967272352
+"sent_centered:C(situation_major):C(weather_temperature)[shopping, warm]",-1.33706754015396e-06
+"sent_centered:C(situation_major):C(weather_temperature)[morningrituals, warm]",0.12305246122669
+"sent_centered:C(situation_major):C(weather_temperature)[workingout, warm]",0.0462058722582548
+"sent_centered:C(situation_major):C(weather_temperature)[housework, warm]",0.0409137716639111
+"sent_centered:C(situation_major):C(weather_temperature)[social, warm]",0.086442288478091
+"sent_centered:C(situation_major):C(weather_temperature)[unknown, hot]",-0.0190585775118583
+"sent_centered:C(situation_major):C(weather_temperature)[working, hot]",-0.126300387127438
+"sent_centered:C(situation_major):C(weather_temperature)[leisure, hot]",0.00680422666297039
+"sent_centered:C(situation_major):C(weather_temperature)[shopping, hot]",0.0661402114451117
+"sent_centered:C(situation_major):C(weather_temperature)[morningrituals, hot]",0.0422397512241336
+"sent_centered:C(situation_major):C(weather_temperature)[workingout, hot]",0.00124178096776712
+"sent_centered:C(situation_major):C(weather_temperature)[housework, hot]",0.0124445399251461
+"sent_centered:C(situation_major):C(weather_temperature)[social, hot]",-0.0296263255303535
+"sent_centered:C(situation_major):C(engagement)[unknown, 1]",0.0678819786484349
+"sent_centered:C(situation_major):C(engagement)[working, 1]",-0.0469752693733074
+"sent_centered:C(situation_major):C(engagement)[leisure, 1]",0.0515681322907823
+"sent_centered:C(situation_major):C(engagement)[shopping, 1]",-0.0266049504566246
+"sent_centered:C(situation_major):C(engagement)[morningrituals, 1]",0.00600570353347399
+"sent_centered:C(situation_major):C(engagement)[workingout, 1]",0.0466113332242151
+"sent_centered:C(situation_major):C(engagement)[housework, 1]",0.106142791968892
+"sent_centered:C(situation_major):C(engagement)[social, 1]",-0.0762815272381412
+"sent_centered:C(notification_type):C(weather_temperature)[restaurant, unknown]",0.00201480033125721
+"sent_centered:C(notification_type):C(weather_temperature)[restaurant, freezing]",-0.0352655531025781
+"sent_centered:C(notification_type):C(weather_temperature)[restaurant, warm]",-0.0915665077470488
+"sent_centered:C(notification_type):C(weather_temperature)[restaurant, hot]",0.0168975865895081
+"sent_centered:C(notification_type):C(engagement)[restaurant, 1]",0.0891005572526091
+"sent_centered:C(weather_temperature):C(engagement)[unknown, 1]",-0.00171213241974679
+"sent_centered:C(weather_temperature):C(engagement)[freezing, 1]",0.0198453768459136
+"sent_centered:C(weather_temperature):C(engagement)[warm, 1]",-0.0260676759953904
+"sent_centered:C(weather_temperature):C(engagement)[hot, 1]",-0.0513504986826549
+"C(S1):C(time_type):C(time_time_simple)[1, weekend, morning]",0.0416862736194744
+"C(S1):C(time_type):C(time_time_simple)[1, unknown, morning]",0.079231919093107
+"C(S1):C(time_type):C(time_time_simple)[1, weekend, night]",-0.0148076832109703
+"C(S1):C(time_type):C(time_time_simple)[1, unknown, night]",0.0731407315334717
+"C(S1):C(time_type):C(time_time_simple)[1, weekend, unknown]",-0.026184363639114
+"C(S1):C(time_type):C(time_time_simple)[1, unknown, unknown]",-0.121593541821094
+"C(S1):C(time_type):C(situation_major)[1, weekend, unknown]",0.0456123967247286
+"C(S1):C(time_type):C(situation_major)[1, unknown, unknown]",0.0552455790863427
+"C(S1):C(time_type):C(situation_major)[1, weekend, working]",0.0151095464959694
+"C(S1):C(time_type):C(situation_major)[1, unknown, working]",-0.0912911416554291
+"C(S1):C(time_type):C(situation_major)[1, weekend, leisure]",-0.00124059445690791
+"C(S1):C(time_type):C(situation_major)[1, unknown, leisure]",0.0086054871606409
+"C(S1):C(time_type):C(situation_major)[1, weekend, shopping]",-0.0174982576952329
+"C(S1):C(time_type):C(situation_major)[1, unknown, shopping]",-0.0901409948078598
+"C(S1):C(time_type):C(situation_major)[1, weekend, morningrituals]",0.100665774760004
+"C(S1):C(time_type):C(situation_major)[1, unknown, morningrituals]",-0.00747480860827856
+"C(S1):C(time_type):C(situation_major)[1, weekend, workingout]",0.00010392246433545
+"C(S1):C(time_type):C(situation_major)[1, unknown, workingout]",0.0714529030917564
+"C(S1):C(time_type):C(situation_major)[1, weekend, housework]",-0.0164534567005899
+"C(S1):C(time_type):C(situation_major)[1, unknown, housework]",0.00985066645034128
+"C(S1):C(time_type):C(situation_major)[1, weekend, social]",0.0177079167773587
+"C(S1):C(time_type):C(situation_major)[1, unknown, social]",0.132617396445527
+"C(S1):C(time_type):C(notification_type)[1, weekend, restaurant]",-0.0259527711879957
+"C(S1):C(time_type):C(notification_type)[1, unknown, restaurant]",0.0666364343591118
+"C(S1):C(time_type):C(weather_temperature)[1, weekend, unknown]",-0.0802038260745982
+"C(S1):C(time_type):C(weather_temperature)[1, unknown, unknown]",-0.0782247561442731
+"C(S1):C(time_type):C(weather_temperature)[1, weekend, freezing]",0.0740399329828956
+"C(S1):C(time_type):C(weather_temperature)[1, unknown, freezing]",0.0122663247280706
+"C(S1):C(time_type):C(weather_temperature)[1, weekend, warm]",-0.100254703284267
+"C(S1):C(time_type):C(weather_temperature)[1, unknown, warm]",0.0294479687513941
+"C(S1):C(time_type):C(weather_temperature)[1, weekend, hot]",0.0261580593125967
+"C(S1):C(time_type):C(weather_temperature)[1, unknown, hot]",0.0387393660915683
+"C(S1):C(time_type):C(engagement)[1, weekend, 1]",-0.100578178837172
+"C(S1):C(time_type):C(engagement)[1, unknown, 1]",0.00789137973722682
+"C(S1):C(time_time_simple):C(situation_major)[1, morning, unknown]",-0.00894077496551309
+"C(S1):C(time_time_simple):C(situation_major)[1, night, unknown]",0.021108895781755
+"C(S1):C(time_time_simple):C(situation_major)[1, unknown, unknown]",-0.0134757822138798
+"C(S1):C(time_time_simple):C(situation_major)[1, morning, working]",-0.0295909239659494
+"C(S1):C(time_time_simple):C(situation_major)[1, night, working]",0.0745570617943004
+"C(S1):C(time_time_simple):C(situation_major)[1, unknown, working]",-0.0119459033862281
+"C(S1):C(time_time_simple):C(situation_major)[1, morning, leisure]",0.0102795657900183
+"C(S1):C(time_time_simple):C(situation_major)[1, night, leisure]",-0.0575427388781401
+"C(S1):C(time_time_simple):C(situation_major)[1, unknown, leisure]",0.137103898643294
+"C(S1):C(time_time_simple):C(situation_major)[1, morning, shopping]",-0.0513348969880173
+"C(S1):C(time_time_simple):C(situation_major)[1, night, shopping]",0.13172874010881
+"C(S1):C(time_time_simple):C(situation_major)[1, unknown, shopping]",0.134267825398811
+"C(S1):C(time_time_simple):C(situation_major)[1, morning, morningrituals]",0.00601294127592937
+"C(S1):C(time_time_simple):C(situation_major)[1, night, morningrituals]",-0.0244393773051497
+"C(S1):C(time_time_simple):C(situation_major)[1, unknown, morningrituals]",0.107191638926917
+"C(S1):C(time_time_simple):C(situation_major)[1, morning, workingout]",0.0208358908757876
+"C(S1):C(time_time_simple):C(situation_major)[1, night, workingout]",-0.13616862306811
+"C(S1):C(time_time_simple):C(situation_major)[1, unknown, workingout]",0.0898385413495294
+"C(S1):C(time_time_simple):C(situation_major)[1, morning, housework]",0.072818300143019
+"C(S1):C(time_time_simple):C(situation_major)[1, night, housework]",0.0457118994863931
+"C(S1):C(time_time_simple):C(situation_major)[1, unknown, housework]",0.037235363947535
+"C(S1):C(time_time_simple):C(situation_major)[1, morning, social]",-0.0803338822971502
+"C(S1):C(time_time_simple):C(situation_major)[1, night, social]",-0.0884919881799829
+"C(S1):C(time_time_simple):C(situation_major)[1, unknown, social]",-0.0397377516259507
+"C(S1):C(time_time_simple):C(notification_type)[1, morning, restaurant]",0.0311646453918481
+"C(S1):C(time_time_simple):C(notification_type)[1, night, restaurant]",0.124777656907859
+"C(S1):C(time_time_simple):C(notification_type)[1, unknown, restaurant]",0.0533013993356923
+"C(S1):C(time_time_simple):C(weather_temperature)[1, morning, unknown]",-0.0523329651326307
+"C(S1):C(time_time_simple):C(weather_temperature)[1, night, unknown]",0.058933711024232
+"C(S1):C(time_time_simple):C(weather_temperature)[1, unknown, unknown]",0.135848228569609
+"C(S1):C(time_time_simple):C(weather_temperature)[1, morning, freezing]",0.10160108346326
+"C(S1):C(time_time_simple):C(weather_temperature)[1, night, freezing]",-0.131764783948754
+"C(S1):C(time_time_simple):C(weather_temperature)[1, unknown, freezing]",-0.0915719034224824
+"C(S1):C(time_time_simple):C(weather_temperature)[1, morning, warm]",0.0904632507114547
+"C(S1):C(time_time_simple):C(weather_temperature)[1, night, warm]",-0.0686761374404593
+"C(S1):C(time_time_simple):C(weather_temperature)[1, unknown, warm]",-0.0750670014441882
+"C(S1):C(time_time_simple):C(weather_temperature)[1, morning, hot]",0.0237521837002751
+"C(S1):C(time_time_simple):C(weather_temperature)[1, night, hot]",0.00334801549685285
+"C(S1):C(time_time_simple):C(weather_temperature)[1, unknown, hot]",0.0416778367703851
+"C(S1):C(time_time_simple):C(engagement)[1, morning, 1]",-0.0029290955628065
+"C(S1):C(time_time_simple):C(engagement)[1, night, 1]",-0.0928423820418447
+"C(S1):C(time_time_simple):C(engagement)[1, unknown, 1]",0.0204505735292284
+"C(S1):C(situation_major):C(notification_type)[1, unknown, restaurant]",0.0191479616329997
+"C(S1):C(situation_major):C(notification_type)[1, working, restaurant]",-0.107664708676377
+"C(S1):C(situation_major):C(notification_type)[1, leisure, restaurant]",0.0399762810854748
+"C(S1):C(situation_major):C(notification_type)[1, shopping, restaurant]",-0.0609801909121951
+"C(S1):C(situation_major):C(notification_type)[1, morningrituals, restaurant]",0.0239725129649625
+"C(S1):C(situation_major):C(notification_type)[1, workingout, restaurant]",0.00111948678194557
+"C(S1):C(situation_major):C(notification_type)[1, housework, restaurant]",-0.0893417691835584
+"C(S1):C(situation_major):C(notification_type)[1, social, restaurant]",0.0154503888893712
+"C(S1):C(situation_major):C(weather_temperature)[1, unknown, unknown]",-0.0769632276466404
+"C(S1):C(situation_major):C(weather_temperature)[1, working, unknown]",-0.0656507710340744
+"C(S1):C(situation_major):C(weather_temperature)[1, leisure, unknown]",0.0588281045191188
+"C(S1):C(situation_major):C(weather_temperature)[1, shopping, unknown]",-0.0309497959058059
+"C(S1):C(situation_major):C(weather_temperature)[1, morningrituals, unknown]",0.0138264553501073
+"C(S1):C(situation_major):C(weather_temperature)[1, workingout, unknown]",0.00854691071741364
+"C(S1):C(situation_major):C(weather_temperature)[1, housework, unknown]",0.00152590075774257
+"C(S1):C(situation_major):C(weather_temperature)[1, social, unknown]",-0.0832472069123412
+"C(S1):C(situation_major):C(weather_temperature)[1, unknown, freezing]",0.0240798397561039
+"C(S1):C(situation_major):C(weather_temperature)[1, working, freezing]",0.0806814101125214
+"C(S1):C(situation_major):C(weather_temperature)[1, leisure, freezing]",-0.0800816537532486
+"C(S1):C(situation_major):C(weather_temperature)[1, shopping, freezing]",0.0333784028062893
+"C(S1):C(situation_major):C(weather_temperature)[1, morningrituals, freezing]",-0.0440753583069695
+"C(S1):C(situation_major):C(weather_temperature)[1, workingout, freezing]",0.0882933522134537
+"C(S1):C(situation_major):C(weather_temperature)[1, housework, freezing]",-0.0259299044435951
+"C(S1):C(situation_major):C(weather_temperature)[1, social, freezing]",-0.0727692516032997
+"C(S1):C(situation_major):C(weather_temperature)[1, unknown, warm]",0.0261052455871959
+"C(S1):C(situation_major):C(weather_temperature)[1, working, warm]",-0.0373777795207956
+"C(S1):C(situation_major):C(weather_temperature)[1, leisure, warm]",-0.022159402964621
+"C(S1):C(situation_major):C(weather_temperature)[1, shopping, warm]",0.0565558307358856
+"C(S1):C(situation_major):C(weather_temperature)[1, morningrituals, warm]",-0.020515964044249
+"C(S1):C(situation_major):C(weather_temperature)[1, workingout, warm]",0.0193100223681498
+"C(S1):C(situation_major):C(weather_temperature)[1, housework, warm]",-0.0704661429715367
+"C(S1):C(situation_major):C(weather_temperature)[1, social, warm]",-0.0658033131998849
+"C(S1):C(situation_major):C(weather_temperature)[1, unknown, hot]",-0.00600110063475413
+"C(S1):C(situation_major):C(weather_temperature)[1, working, hot]",0.059470776105262
+"C(S1):C(situation_major):C(weather_temperature)[1, leisure, hot]",0.00358740712849532
+"C(S1):C(situation_major):C(weather_temperature)[1, shopping, hot]",-0.0470540272706339
+"C(S1):C(situation_major):C(weather_temperature)[1, morningrituals, hot]",-0.0272488323279646
+"C(S1):C(situation_major):C(weather_temperature)[1, workingout, hot]",0.0471510930020609
+"C(S1):C(situation_major):C(weather_temperature)[1, housework, hot]",-0.0111205269294067
+"C(S1):C(situation_major):C(weather_temperature)[1, social, hot]",0.0112460262339583
+"C(S1):C(situation_major):C(engagement)[1, unknown, 1]",0.0599456734257388
+"C(S1):C(situation_major):C(engagement)[1, working, 1]",0.0667280406169019
+"C(S1):C(situation_major):C(engagement)[1, leisure, 1]",-0.0128368476330813
+"C(S1):C(situation_major):C(engagement)[1, shopping, 1]",-0.0682689134126465
+"C(S1):C(situation_major):C(engagement)[1, morningrituals, 1]",-0.0543515871831088
+"C(S1):C(situation_major):C(engagement)[1, workingout, 1]",0.0569678861654418
+"C(S1):C(situation_major):C(engagement)[1, housework, 1]",-0.00127699079047089
+"C(S1):C(situation_major):C(engagement)[1, social, 1]",0.0119727147306799
+"C(S1):C(notification_type):C(weather_temperature)[1, restaurant, unknown]",-0.0450125243759843
+"C(S1):C(notification_type):C(weather_temperature)[1, restaurant, freezing]",0.0017893781959958
+"C(S1):C(notification_type):C(weather_temperature)[1, restaurant, warm]",-0.0213190727921985
+"C(S1):C(notification_type):C(weather_temperature)[1, restaurant, hot]",0.0433441109343428
+"C(S1):C(notification_type):C(engagement)[1, restaurant, 1]",0.0527361469726673
+"C(S1):C(weather_temperature):C(engagement)[1, unknown, 1]",0.00199147984450909
+"C(S1):C(weather_temperature):C(engagement)[1, freezing, 1]",0.00427281319126739
+"C(S1):C(weather_temperature):C(engagement)[1, warm, 1]",-0.0570304603398504
+"C(S1):C(weather_temperature):C(engagement)[1, hot, 1]",-0.0665652460777856
+"C(S2):C(time_type):C(time_time_simple)[1, weekend, morning]",0.0373240653273021
+"C(S2):C(time_type):C(time_time_simple)[1, unknown, morning]",-0.0474607021425196
+"C(S2):C(time_type):C(time_time_simple)[1, weekend, night]",-0.0526119844246608
+"C(S2):C(time_type):C(time_time_simple)[1, unknown, night]",0.0334755872912605
+"C(S2):C(time_type):C(time_time_simple)[1, weekend, unknown]",0.0184621282916106
+"C(S2):C(time_type):C(time_time_simple)[1, unknown, unknown]",0.10727698818815
+"C(S2):C(time_type):C(situation_major)[1, weekend, unknown]",-0.0804410801380261
+"C(S2):C(time_type):C(situation_major)[1, unknown, unknown]",-0.0587832547337297
+"C(S2):C(time_type):C(situation_major)[1, weekend, working]",0.0362672261581023
+"C(S2):C(time_type):C(situation_major)[1, unknown, working]",0.0419356396212536
+"C(S2):C(time_type):C(situation_major)[1, weekend, leisure]",-0.104368327526361
+"C(S2):C(time_type):C(situation_major)[1, unknown, leisure]",-0.0164087099937641
+"C(S2):C(time_type):C(situation_major)[1, weekend, shopping]",-0.0708252784780153
+"C(S2):C(time_type):C(situation_major)[1, unknown, shopping]",-0.0296186254822901
+"C(S2):C(time_type):C(situation_major)[1, weekend, morningrituals]",-0.0615610220736291
+"C(S2):C(time_type):C(situation_major)[1, unknown, morningrituals]",-0.0380246198253215
+"C(S2):C(time_type):C(situation_major)[1, weekend, workingout]",0.0567173398608109
+"C(S2):C(time_type):C(situation_major)[1, unknown, workingout]",0.0356916214372039
+"C(S2):C(time_type):C(situation_major)[1, weekend, housework]",0.0476528868675132
+"C(S2):C(time_type):C(situation_major)[1, unknown, housework]",0.0484812865784261
+"C(S2):C(time_type):C(situation_major)[1, weekend, social]",-0.0104850371917612
+"C(S2):C(time_type):C(situation_major)[1, unknown, social]",-0.0687962893906613
+"C(S2):C(time_type):C(notification_type)[1, weekend, restaurant]",0.0242234305311055
+"C(S2):C(time_type):C(notification_type)[1, unknown, restaurant]",-0.0854933149608467
+"C(S2):C(time_type):C(weather_temperature)[1, weekend, unknown]",-0.01955882453333
+"C(S2):C(time_type):C(weather_temperature)[1, unknown, unknown]",0.0027037230001528
+"C(S2):C(time_type):C(weather_temperature)[1, weekend, freezing]",0.0678586391562504
+"C(S2):C(time_type):C(weather_temperature)[1, unknown, freezing]",-0.108293173079534
+"C(S2):C(time_type):C(weather_temperature)[1, weekend, warm]",-0.0135422871813481
+"C(S2):C(time_type):C(weather_temperature)[1, unknown, warm]",0.0584116911562026
+"C(S2):C(time_type):C(weather_temperature)[1, weekend, hot]",0.0342560760942459
+"C(S2):C(time_type):C(weather_temperature)[1, unknown, hot]",0.0434934281397787
+"C(S2):C(time_type):C(engagement)[1, weekend, 1]",0.0534383269631958
+"C(S2):C(time_type):C(engagement)[1, unknown, 1]",-0.119838875763024
+"C(S2):C(time_time_simple):C(situation_major)[1, morning, unknown]",-0.0295299124201183
+"C(S2):C(time_time_simple):C(situation_major)[1, night, unknown]",0.0935925592814773
+"C(S2):C(time_time_simple):C(situation_major)[1, unknown, unknown]",0.0339983635178171
+"C(S2):C(time_time_simple):C(situation_major)[1, morning, working]",0.067597053721589
+"C(S2):C(time_time_simple):C(situation_major)[1, night, working]",0.0504954808513437
+"C(S2):C(time_time_simple):C(situation_major)[1, unknown, working]",-0.00887138722833863
+"C(S2):C(time_time_simple):C(situation_major)[1, morning, leisure]",0.0064767837894424
+"C(S2):C(time_time_simple):C(situation_major)[1, night, leisure]",-0.107497412826728
+"C(S2):C(time_time_simple):C(situation_major)[1, unknown, leisure]",-0.00179650280798383
+"C(S2):C(time_time_simple):C(situation_major)[1, morning, shopping]",-0.0682422722751276
+"C(S2):C(time_time_simple):C(situation_major)[1, night, shopping]",-0.00399701939201077
+"C(S2):C(time_time_simple):C(situation_major)[1, unknown, shopping]",0.0314105619665296
+"C(S2):C(time_time_simple):C(situation_major)[1, morning, morningrituals]",0.00998130545963836
+"C(S2):C(time_time_simple):C(situation_major)[1, night, morningrituals]",0.0516871719428123
+"C(S2):C(time_time_simple):C(situation_major)[1, unknown, morningrituals]",0.032154817639388
+"C(S2):C(time_time_simple):C(situation_major)[1, morning, workingout]",0.0594003680860431
+"C(S2):C(time_time_simple):C(situation_major)[1, night, workingout]",-0.0998269325984005
+"C(S2):C(time_time_simple):C(situation_major)[1, unknown, workingout]",0.109380562232253
+"C(S2):C(time_time_simple):C(situation_major)[1, morning, housework]",0.0642030337293292
+"C(S2):C(time_time_simple):C(situation_major)[1, night, housework]",0.110009572298657
+"C(S2):C(time_time_simple):C(situation_major)[1, unknown, housework]",0.0217751858821282
+"C(S2):C(time_time_simple):C(situation_major)[1, morning, social]",-0.0093704957894636
+"C(S2):C(time_time_simple):C(situation_major)[1, night, social]",-0.0391410451248049
+"C(S2):C(time_time_simple):C(situation_major)[1, unknown, social]",0.0265213396273695
+"C(S2):C(time_time_simple):C(notification_type)[1, morning, restaurant]",-0.000319427678508754
+"C(S2):C(time_time_simple):C(notification_type)[1, night, restaurant]",0.0439215269567326
+"C(S2):C(time_time_simple):C(notification_type)[1, unknown, restaurant]",0.0264793731616061
+"C(S2):C(time_time_simple):C(weather_temperature)[1, morning, unknown]",-0.0403696875197506
+"C(S2):C(time_time_simple):C(weather_temperature)[1, night, unknown]",-0.0240293151911784
+"C(S2):C(time_time_simple):C(weather_temperature)[1, unknown, unknown]",-0.0493700680492906
+"C(S2):C(time_time_simple):C(weather_temperature)[1, morning, freezing]",-0.0946296803551404
+"C(S2):C(time_time_simple):C(weather_temperature)[1, night, freezing]",0.0256506246090043
+"C(S2):C(time_time_simple):C(weather_temperature)[1, unknown, freezing]",0.051528509760222
+"C(S2):C(time_time_simple):C(weather_temperature)[1, morning, warm]",0.049829581211963
+"C(S2):C(time_time_simple):C(weather_temperature)[1, night, warm]",-0.0848864656079543
+"C(S2):C(time_time_simple):C(weather_temperature)[1, unknown, warm]",0.0177494414356887
+"C(S2):C(time_time_simple):C(weather_temperature)[1, morning, hot]",0.137732990366301
+"C(S2):C(time_time_simple):C(weather_temperature)[1, night, hot]",0.0671519388687913
+"C(S2):C(time_time_simple):C(weather_temperature)[1, unknown, hot]",-0.0221663679561102
+"C(S2):C(time_time_simple):C(engagement)[1, morning, 1]",-0.177802470175164
+"C(S2):C(time_time_simple):C(engagement)[1, night, 1]",-0.0635885412166591
+"C(S2):C(time_time_simple):C(engagement)[1, unknown, 1]",-0.00723985407921205
+"C(S2):C(situation_major):C(notification_type)[1, unknown, restaurant]",0.00494864840633321
+"C(S2):C(situation_major):C(notification_type)[1, working, restaurant]",0.0275841265337582
+"C(S2):C(situation_major):C(notification_type)[1, leisure, restaurant]",-0.0592288827753427
+"C(S2):C(situation_major):C(notification_type)[1, shopping, restaurant]",-0.0195965381092567
+"C(S2):C(situation_major):C(notification_type)[1, morningrituals, restaurant]",0.0845055730267782
+"C(S2):C(situation_major):C(notification_type)[1, workingout, restaurant]",-0.039602523970239
+"C(S2):C(situation_major):C(notification_type)[1, housework, restaurant]",-0.0667977746783848
+"C(S2):C(situation_major):C(notification_type)[1, social, restaurant]",0.00393770709809353
+"C(S2):C(situation_major):C(weather_temperature)[1, unknown, unknown]",-0.0147087582578639
+"C(S2):C(situation_major):C(weather_temperature)[1, working, unknown]",-0.0926899251318173
+"C(S2):C(situation_major):C(weather_temperature)[1, leisure, unknown]",0.0468226741161368
+"C(S2):C(situation_major):C(weather_temperature)[1, shopping, unknown]",-0.071095013927639
+"C(S2):C(situation_major):C(weather_temperature)[1, morningrituals, unknown]",0.00847401930793453
+"C(S2):C(situation_major):C(weather_temperature)[1, workingout, unknown]",-0.00748676733842438
+"C(S2):C(situation_major):C(weather_temperature)[1, housework, unknown]",0.0414611006220115
+"C(S2):C(situation_major):C(weather_temperature)[1, social, unknown]",0.0964503203011383
+"C(S2):C(situation_major):C(weather_temperature)[1, unknown, freezing]",-0.0882635274130185
+"C(S2):C(situation_major):C(weather_temperature)[1, working, freezing]",0.0137305793567092
+"C(S2):C(situation_major):C(weather_temperature)[1, leisure, freezing]",-0.0527838375859091
+"C(S2):C(situation_major):C(weather_temperature)[1, shopping, freezing]",0.0575182110670211
+"C(S2):C(situation_major):C(weather_temperature)[1, morningrituals, freezing]",-0.0332720597282461
+"C(S2):C(situation_major):C(weather_temperature)[1, workingout, freezing]",0.00735750641756647
+"C(S2):C(situation_major):C(weather_temperature)[1, housework, freezing]",-0.0544444355998462
+"C(S2):C(situation_major):C(weather_temperature)[1, social, freezing]",0.0152230202682565
+"C(S2):C(situation_major):C(weather_temperature)[1, unknown, warm]",0.0209672523318911
+"C(S2):C(situation_major):C(weather_temperature)[1, working, warm]",0.0805178334562863
+"C(S2):C(situation_major):C(weather_temperature)[1, leisure, warm]",-0.00585356054048906
+"C(S2):C(situation_major):C(weather_temperature)[1, shopping, warm]",0.0246381436992046
+"C(S2):C(situation_major):C(weather_temperature)[1, morningrituals, warm]",0.027783969531012
+"C(S2):C(situation_major):C(weather_temperature)[1, workingout, warm]",-0.0733875482515566
+"C(S2):C(situation_major):C(weather_temperature)[1, housework, warm]",-0.0542912626303248
+"C(S2):C(situation_major):C(weather_temperature)[1, social, warm]",0.0228183566875957
+"C(S2):C(situation_major):C(weather_temperature)[1, unknown, hot]",0.0616227856442046
+"C(S2):C(situation_major):C(weather_temperature)[1, working, hot]",-0.0524923650129413
+"C(S2):C(situation_major):C(weather_temperature)[1, leisure, hot]",-0.0388320322604293
+"C(S2):C(situation_major):C(weather_temperature)[1, shopping, hot]",-0.0256325856774692
+"C(S2):C(situation_major):C(weather_temperature)[1, morningrituals, hot]",-0.0339879294807686
+"C(S2):C(situation_major):C(weather_temperature)[1, workingout, hot]",0.034431935988635
+"C(S2):C(situation_major):C(weather_temperature)[1, housework, hot]",-0.0290213787440569
+"C(S2):C(situation_major):C(weather_temperature)[1, social, hot]",-0.0493396553591898
+"C(S2):C(situation_major):C(engagement)[1, unknown, 1]",-0.020653048205695
+"C(S2):C(situation_major):C(engagement)[1, working, 1]",-0.0716714799905435
+"C(S2):C(situation_major):C(engagement)[1, leisure, 1]",-0.11315879603604
+"C(S2):C(situation_major):C(engagement)[1, shopping, 1]",0.0076456722955811
+"C(S2):C(situation_major):C(engagement)[1, morningrituals, 1]",0.0726494598344602
+"C(S2):C(situation_major):C(engagement)[1, workingout, 1]",0.0290597445032217
+"C(S2):C(situation_major):C(engagement)[1, housework, 1]",0.0359372293384055
+"C(S2):C(situation_major):C(engagement)[1, social, 1]",-0.0366247642623866
+"C(S2):C(notification_type):C(weather_temperature)[1, restaurant, unknown]",-0.0479351225151548
+"C(S2):C(notification_type):C(weather_temperature)[1, restaurant, freezing]",0.0404772772193256
+"C(S2):C(notification_type):C(weather_temperature)[1, restaurant, warm]",-0.0367791783778667
+"C(S2):C(notification_type):C(weather_temperature)[1, restaurant, hot]",-0.0627489090352002
+"C(S2):C(notification_type):C(engagement)[1, restaurant, 1]",-0.0316263128568687
+"C(S2):C(weather_temperature):C(engagement)[1, unknown, 1]",0.0852258100207936
+"C(S2):C(weather_temperature):C(engagement)[1, freezing, 1]",0.0373299757672375
+"C(S2):C(weather_temperature):C(engagement)[1, warm, 1]",-0.0495821088104562
+"C(S2):C(weather_temperature):C(engagement)[1, hot, 1]",-0.0429732943927876
+"sent_centered:C(S1):C(time_type):C(time_time_simple)[1, weekend, morning]",0.0110012779601972
+"sent_centered:C(S1):C(time_type):C(time_time_simple)[1, unknown, morning]",-0.0109843854703068
+"sent_centered:C(S1):C(time_type):C(time_time_simple)[1, weekend, night]",0.0263163748302745
+"sent_centered:C(S1):C(time_type):C(time_time_simple)[1, unknown, night]",0.00842856817861103
+"sent_centered:C(S1):C(time_type):C(time_time_simple)[1, weekend, unknown]",0.0160983963890886
+"sent_centered:C(S1):C(time_type):C(time_time_simple)[1, unknown, unknown]",0.020943795976361
+"sent_centered:C(S1):C(time_type):C(situation_major)[1, weekend, unknown]",0.0246468173697502
+"sent_centered:C(S1):C(time_type):C(situation_major)[1, unknown, unknown]",-0.00379540741679292
+"sent_centered:C(S1):C(time_type):C(situation_major)[1, weekend, working]",-0.005567593121865
+"sent_centered:C(S1):C(time_type):C(situation_major)[1, unknown, working]",0.0272529377515285
+"sent_centered:C(S1):C(time_type):C(situation_major)[1, weekend, leisure]",-0.00667782391568436
+"sent_centered:C(S1):C(time_type):C(situation_major)[1, unknown, leisure]",0.0040125220874858
+"sent_centered:C(S1):C(time_type):C(situation_major)[1, weekend, shopping]",-0.0240905819836647
+"sent_centered:C(S1):C(time_type):C(situation_major)[1, unknown, shopping]",0.00627226018661559
+"sent_centered:C(S1):C(time_type):C(situation_major)[1, weekend, morningrituals]",0.00100680632920585
+"sent_centered:C(S1):C(time_type):C(situation_major)[1, unknown, morningrituals]",-0.00553100161029326
+"sent_centered:C(S1):C(time_type):C(situation_major)[1, weekend, workingout]",0.00987585675763664
+"sent_centered:C(S1):C(time_type):C(situation_major)[1, unknown, workingout]",-0.0256851329212294
+"sent_centered:C(S1):C(time_type):C(situation_major)[1, weekend, housework]",0.00322567535310449
+"sent_centered:C(S1):C(time_type):C(situation_major)[1, unknown, housework]",-0.00786208513004413
+"sent_centered:C(S1):C(time_type):C(situation_major)[1, weekend, social]",0.0138167564479647
+"sent_centered:C(S1):C(time_type):C(situation_major)[1, unknown, social]",-0.0114065360544072
+"sent_centered:C(S1):C(time_type):C(notification_type)[1, weekend, restaurant]",0.00187276307451648
+"sent_centered:C(S1):C(time_type):C(notification_type)[1, unknown, restaurant]",-0.00518805031873775
+"sent_centered:C(S1):C(time_type):C(weather_temperature)[1, weekend, unknown]",-0.00453810026784512
+"sent_centered:C(S1):C(time_type):C(weather_temperature)[1, unknown, unknown]",0.0056938959654757
+"sent_centered:C(S1):C(time_type):C(weather_temperature)[1, weekend, freezing]",-0.00262260073405835
+"sent_centered:C(S1):C(time_type):C(weather_temperature)[1, unknown, freezing]",0.00258827097039409
+"sent_centered:C(S1):C(time_type):C(weather_temperature)[1, weekend, warm]",0.00890138650572366
+"sent_centered:C(S1):C(time_type):C(weather_temperature)[1, unknown, warm]",0.0201531953276309
+"sent_centered:C(S1):C(time_type):C(weather_temperature)[1, weekend, hot]",0.02951150227838
+"sent_centered:C(S1):C(time_type):C(weather_temperature)[1, unknown, hot]",0.00979752381674311
+"sent_centered:C(S1):C(time_type):C(engagement)[1, weekend, 1]",0.0183889741166814
+"sent_centered:C(S1):C(time_type):C(engagement)[1, unknown, 1]",0.00234882407382226
+"sent_centered:C(S1):C(time_time_simple):C(situation_major)[1, morning, unknown]",-0.017962646302355
+"sent_centered:C(S1):C(time_time_simple):C(situation_major)[1, night, unknown]",0.029964415488196
+"sent_centered:C(S1):C(time_time_simple):C(situation_major)[1, unknown, unknown]",-0.025856477633634
+"sent_centered:C(S1):C(time_time_simple):C(situation_major)[1, morning, working]",0.02248411274078
+"sent_centered:C(S1):C(time_time_simple):C(situation_major)[1, night, working]",-0.00742922114929263
+"sent_centered:C(S1):C(time_time_simple):C(situation_major)[1, unknown, working]",0.0220949443163956
+"sent_centered:C(S1):C(time_time_simple):C(situation_major)[1, morning, leisure]",0.0159290883415032
+"sent_centered:C(S1):C(time_time_simple):C(situation_major)[1, night, leisure]",0.00878328614247547
+"sent_centered:C(S1):C(time_time_simple):C(situation_major)[1, unknown, leisure]",-0.0164840466943803
+"sent_centered:C(S1):C(time_time_simple):C(situation_major)[1, morning, shopping]",0.0149855711016916
+"sent_centered:C(S1):C(time_time_simple):C(situation_major)[1, night, shopping]",-0.0151685561521754
+"sent_centered:C(S1):C(time_time_simple):C(situation_major)[1, unknown, shopping]",-0.000497097826335078
+"sent_centered:C(S1):C(time_time_simple):C(situation_major)[1, morning, morningrituals]",-0.00381814651280389
+"sent_centered:C(S1):C(time_time_simple):C(situation_major)[1, night, morningrituals]",0.000184421487358709
+"sent_centered:C(S1):C(time_time_simple):C(situation_major)[1, unknown, morningrituals]",-0.00195355259446398
+"sent_centered:C(S1):C(time_time_simple):C(situation_major)[1, morning, workingout]",-0.0185406124391138
+"sent_centered:C(S1):C(time_time_simple):C(situation_major)[1, night, workingout]",0.0071787737352839
+"sent_centered:C(S1):C(time_time_simple):C(situation_major)[1, unknown, workingout]",0.0181485566334609
+"sent_centered:C(S1):C(time_time_simple):C(situation_major)[1, morning, housework]",-0.00805428267910498
+"sent_centered:C(S1):C(time_time_simple):C(situation_major)[1, night, housework]",-0.0152448939399345
+"sent_centered:C(S1):C(time_time_simple):C(situation_major)[1, unknown, housework]",0.024519322112859
+"sent_centered:C(S1):C(time_time_simple):C(situation_major)[1, morning, social]",0.00977027815340456
+"sent_centered:C(S1):C(time_time_simple):C(situation_major)[1, night, social]",0.0154801140487034
+"sent_centered:C(S1):C(time_time_simple):C(situation_major)[1, unknown, social]",-0.0162879087504337
+"sent_centered:C(S1):C(time_time_simple):C(notification_type)[1, morning, restaurant]",-0.00923603261859737
+"sent_centered:C(S1):C(time_time_simple):C(notification_type)[1, night, restaurant]",0.0274543377544922
+"sent_centered:C(S1):C(time_time_simple):C(notification_type)[1, unknown, restaurant]",-0.027613368969507
+"sent_centered:C(S1):C(time_time_simple):C(weather_temperature)[1, morning, unknown]",0.0023997917372632
+"sent_centered:C(S1):C(time_time_simple):C(weather_temperature)[1, night, unknown]",-0.00291022205375298
+"sent_centered:C(S1):C(time_time_simple):C(weather_temperature)[1, unknown, unknown]",0.00932514407274428
+"sent_centered:C(S1):C(time_time_simple):C(weather_temperature)[1, morning, freezing]",-0.00115836542061752
+"sent_centered:C(S1):C(time_time_simple):C(weather_temperature)[1, night, freezing]",-0.0243261654611993
+"sent_centered:C(S1):C(time_time_simple):C(weather_temperature)[1, unknown, freezing]",-0.0247862452997209
+"sent_centered:C(S1):C(time_time_simple):C(weather_temperature)[1, morning, warm]",0.0359208069754893
+"sent_centered:C(S1):C(time_time_simple):C(weather_temperature)[1, night, warm]",0.0223958768439129
+"sent_centered:C(S1):C(time_time_simple):C(weather_temperature)[1, unknown, warm]",-0.0145411622047002
+"sent_centered:C(S1):C(time_time_simple):C(weather_temperature)[1, morning, hot]",0.00400318852492655
+"sent_centered:C(S1):C(time_time_simple):C(weather_temperature)[1, night, hot]",0.00390557743573268
+"sent_centered:C(S1):C(time_time_simple):C(weather_temperature)[1, unknown, hot]",0.0184144532871297
+"sent_centered:C(S1):C(time_time_simple):C(engagement)[1, morning, 1]",0.0150273142233497
+"sent_centered:C(S1):C(time_time_simple):C(engagement)[1, night, 1]",0.0168218477427664
+"sent_centered:C(S1):C(time_time_simple):C(engagement)[1, unknown, 1]",-0.0147191594271841
+"sent_centered:C(S1):C(situation_major):C(notification_type)[1, unknown, restaurant]",0.00182114966913268
+"sent_centered:C(S1):C(situation_major):C(notification_type)[1, working, restaurant]",0.0256115838002302
+"sent_centered:C(S1):C(situation_major):C(notification_type)[1, leisure, restaurant]",-0.00274904652694531
+"sent_centered:C(S1):C(situation_major):C(notification_type)[1, shopping, restaurant]",0.0030697018371115
+"sent_centered:C(S1):C(situation_major):C(notification_type)[1, morningrituals, restaurant]",-0.0304062594910873
+"sent_centered:C(S1):C(situation_major):C(notification_type)[1, workingout, restaurant]",0.00770418480773121
+"sent_centered:C(S1):C(situation_major):C(notification_type)[1, housework, restaurant]",-0.0185611029268606
+"sent_centered:C(S1):C(situation_major):C(notification_type)[1, social, restaurant]",0.0201669883752713
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, unknown, unknown]",0.0108472262151463
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, working, unknown]",-0.00482205432915817
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, leisure, unknown]",0.014809807203427
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, shopping, unknown]",0.00103407320892017
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, morningrituals, unknown]",0.0109752214257048
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, workingout, unknown]",-0.0219282340388081
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, housework, unknown]",0.0100486275189349
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, social, unknown]",0.0120485874220422
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, unknown, freezing]",-0.0237680573929482
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, working, freezing]",0.0379533533115809
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, leisure, freezing]",-0.0180137861628852
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, shopping, freezing]",-0.00859626143703459
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, morningrituals, freezing]",-0.0262291861860562
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, workingout, freezing]",-0.0035639120288616
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, housework, freezing]",-0.00542950005163486
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, social, freezing]",0.00198980150495013
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, unknown, warm]",-0.0198905780054578
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, working, warm]",0.0115039985184857
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, leisure, warm]",0.0146644125902122
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, shopping, warm]",-0.0052555810287894
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, morningrituals, warm]",0.030937756104822
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, workingout, warm]",0.0200855242915552
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, housework, warm]",-0.0223723730851995
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, social, warm]",-0.0213986220170319
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, unknown, hot]",9.67136429409068e-05
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, working, hot]",0.0236035530672295
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, leisure, hot]",-0.0135164125510938
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, shopping, hot]",0.010992670627136
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, morningrituals, hot]",0.0168981294224638
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, workingout, hot]",-0.0129029744680754
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, housework, hot]",-0.0154338775022182
+"sent_centered:C(S1):C(situation_major):C(weather_temperature)[1, social, hot]",-0.0131699577854287
+"sent_centered:C(S1):C(situation_major):C(engagement)[1, unknown, 1]",0.00239195006089038
+"sent_centered:C(S1):C(situation_major):C(engagement)[1, working, 1]",0.0315427383928278
+"sent_centered:C(S1):C(situation_major):C(engagement)[1, leisure, 1]",0.0111814348520561
+"sent_centered:C(S1):C(situation_major):C(engagement)[1, shopping, 1]",-0.0174319492966038
+"sent_centered:C(S1):C(situation_major):C(engagement)[1, morningrituals, 1]",-0.00639372659406161
+"sent_centered:C(S1):C(situation_major):C(engagement)[1, workingout, 1]",0.00890159867617748
+"sent_centered:C(S1):C(situation_major):C(engagement)[1, housework, 1]",0.0057274243899458
+"sent_centered:C(S1):C(situation_major):C(engagement)[1, social, 1]",-0.0031722121704503
+"sent_centered:C(S1):C(notification_type):C(weather_temperature)[1, restaurant, unknown]",0.0203099328945206
+"sent_centered:C(S1):C(notification_type):C(weather_temperature)[1, restaurant, freezing]",0.0068652299580344
+"sent_centered:C(S1):C(notification_type):C(weather_temperature)[1, restaurant, warm]",0.0147650058288165
+"sent_centered:C(S1):C(notification_type):C(weather_temperature)[1, restaurant, hot]",0.0103442550819895
+"sent_centered:C(S1):C(notification_type):C(engagement)[1, restaurant, 1]",-0.0286119668325084
+"sent_centered:C(S1):C(weather_temperature):C(engagement)[1, unknown, 1]",0.0146580327205194
+"sent_centered:C(S1):C(weather_temperature):C(engagement)[1, freezing, 1]",-0.00625464250752686
+"sent_centered:C(S1):C(weather_temperature):C(engagement)[1, warm, 1]",0.0134774093831225
+"sent_centered:C(S1):C(weather_temperature):C(engagement)[1, hot, 1]",0.00679138310042568
+"sent_centered:C(S2):C(time_type):C(time_time_simple)[1, weekend, morning]",0.0048579815421135
+"sent_centered:C(S2):C(time_type):C(time_time_simple)[1, unknown, morning]",-0.0194330337807053
+"sent_centered:C(S2):C(time_type):C(time_time_simple)[1, weekend, night]",-0.00781379184828925
+"sent_centered:C(S2):C(time_type):C(time_time_simple)[1, unknown, night]",0.00274025254199232
+"sent_centered:C(S2):C(time_type):C(time_time_simple)[1, weekend, unknown]",0.0203764577923235
+"sent_centered:C(S2):C(time_type):C(time_time_simple)[1, unknown, unknown]",0.0108697745189884
+"sent_centered:C(S2):C(time_type):C(situation_major)[1, weekend, unknown]",0.0184122537193727
+"sent_centered:C(S2):C(time_type):C(situation_major)[1, unknown, unknown]",-0.0248742198346877
+"sent_centered:C(S2):C(time_type):C(situation_major)[1, weekend, working]",0.00670829894700195
+"sent_centered:C(S2):C(time_type):C(situation_major)[1, unknown, working]",0.00418309364546789
+"sent_centered:C(S2):C(time_type):C(situation_major)[1, weekend, leisure]",-0.0206829968168354
+"sent_centered:C(S2):C(time_type):C(situation_major)[1, unknown, leisure]",0.0167473762088532
+"sent_centered:C(S2):C(time_type):C(situation_major)[1, weekend, shopping]",-0.0115533690973954
+"sent_centered:C(S2):C(time_type):C(situation_major)[1, unknown, shopping]",-0.0177548385579263
+"sent_centered:C(S2):C(time_type):C(situation_major)[1, weekend, morningrituals]",0.00323316545928739
+"sent_centered:C(S2):C(time_type):C(situation_major)[1, unknown, morningrituals]",-0.0381414915729604
+"sent_centered:C(S2):C(time_type):C(situation_major)[1, weekend, workingout]",0.0136021077056548
+"sent_centered:C(S2):C(time_type):C(situation_major)[1, unknown, workingout]",0.0166862681359229
+"sent_centered:C(S2):C(time_type):C(situation_major)[1, weekend, housework]",-0.0186603520379304
+"sent_centered:C(S2):C(time_type):C(situation_major)[1, unknown, housework]",-0.0297499439270589
+"sent_centered:C(S2):C(time_type):C(situation_major)[1, weekend, social]",-0.00313740188223768
+"sent_centered:C(S2):C(time_type):C(situation_major)[1, unknown, social]",0.0140974192468239
+"sent_centered:C(S2):C(time_type):C(notification_type)[1, weekend, restaurant]",-0.00370941508033933
+"sent_centered:C(S2):C(time_type):C(notification_type)[1, unknown, restaurant]",0.0367544678088937
+"sent_centered:C(S2):C(time_type):C(weather_temperature)[1, weekend, unknown]",-0.0242663571801865
+"sent_centered:C(S2):C(time_type):C(weather_temperature)[1, unknown, unknown]",0.00545828440096041
+"sent_centered:C(S2):C(time_type):C(weather_temperature)[1, weekend, freezing]",-0.0360196597361727
+"sent_centered:C(S2):C(time_type):C(weather_temperature)[1, unknown, freezing]",0.0258755952808441
+"sent_centered:C(S2):C(time_type):C(weather_temperature)[1, weekend, warm]",0.0251443913852131
+"sent_centered:C(S2):C(time_type):C(weather_temperature)[1, unknown, warm]",-0.0159234942538801
+"sent_centered:C(S2):C(time_type):C(weather_temperature)[1, weekend, hot]",0.000293629174402475
+"sent_centered:C(S2):C(time_type):C(weather_temperature)[1, unknown, hot]",0.0223816402864353
+"sent_centered:C(S2):C(time_type):C(engagement)[1, weekend, 1]",-0.00331394072687157
+"sent_centered:C(S2):C(time_type):C(engagement)[1, unknown, 1]",0.000558366148351256
+"sent_centered:C(S2):C(time_time_simple):C(situation_major)[1, morning, unknown]",0.0186638259622057
+"sent_centered:C(S2):C(time_time_simple):C(situation_major)[1, night, unknown]",-0.0102938723562386
+"sent_centered:C(S2):C(time_time_simple):C(situation_major)[1, unknown, unknown]",0.00329628247373982
+"sent_centered:C(S2):C(time_time_simple):C(situation_major)[1, morning, working]",0.0125139983104698
+"sent_centered:C(S2):C(time_time_simple):C(situation_major)[1, night, working]",-0.0120518025814372
+"sent_centered:C(S2):C(time_time_simple):C(situation_major)[1, unknown, working]",0.0159810699594054
+"sent_centered:C(S2):C(time_time_simple):C(situation_major)[1, morning, leisure]",0.0265658841305358
+"sent_centered:C(S2):C(time_time_simple):C(situation_major)[1, night, leisure]",0.00799479749207764
+"sent_centered:C(S2):C(time_time_simple):C(situation_major)[1, unknown, leisure]",-0.00468871750463331
+"sent_centered:C(S2):C(time_time_simple):C(situation_major)[1, morning, shopping]",0.0443061056576906
+"sent_centered:C(S2):C(time_time_simple):C(situation_major)[1, night, shopping]",0.0451059474676503
+"sent_centered:C(S2):C(time_time_simple):C(situation_major)[1, unknown, shopping]",0.0254847607174055
+"sent_centered:C(S2):C(time_time_simple):C(situation_major)[1, morning, morningrituals]",-0.00794427995588611
+"sent_centered:C(S2):C(time_time_simple):C(situation_major)[1, night, morningrituals]",0.0171560296505146
+"sent_centered:C(S2):C(time_time_simple):C(situation_major)[1, unknown, morningrituals]",-0.00243805537968453
+"sent_centered:C(S2):C(time_time_simple):C(situation_major)[1, morning, workingout]",0.0195435939704398
+"sent_centered:C(S2):C(time_time_simple):C(situation_major)[1, night, workingout]",-0.00244543482499042
+"sent_centered:C(S2):C(time_time_simple):C(situation_major)[1, unknown, workingout]",-0.0253484972034501
+"sent_centered:C(S2):C(time_time_simple):C(situation_major)[1, morning, housework]",0.0040069818261356
+"sent_centered:C(S2):C(time_time_simple):C(situation_major)[1, night, housework]",-0.00496648057775612
+"sent_centered:C(S2):C(time_time_simple):C(situation_major)[1, unknown, housework]",-0.0097233879728848
+"sent_centered:C(S2):C(time_time_simple):C(situation_major)[1, morning, social]",0.0129725431531177
+"sent_centered:C(S2):C(time_time_simple):C(situation_major)[1, night, social]",0.0181120113970863
+"sent_centered:C(S2):C(time_time_simple):C(situation_major)[1, unknown, social]",-0.0104034327288192
+"sent_centered:C(S2):C(time_time_simple):C(notification_type)[1, morning, restaurant]",0.0193079996684266
+"sent_centered:C(S2):C(time_time_simple):C(notification_type)[1, night, restaurant]",-0.00844677373698072
+"sent_centered:C(S2):C(time_time_simple):C(notification_type)[1, unknown, restaurant]",0.0319830473290828
+"sent_centered:C(S2):C(time_time_simple):C(weather_temperature)[1, morning, unknown]",-0.0271651001853816
+"sent_centered:C(S2):C(time_time_simple):C(weather_temperature)[1, night, unknown]",-0.00428790020890286
+"sent_centered:C(S2):C(time_time_simple):C(weather_temperature)[1, unknown, unknown]",-0.00560133073665106
+"sent_centered:C(S2):C(time_time_simple):C(weather_temperature)[1, morning, freezing]",-0.012182974923721
+"sent_centered:C(S2):C(time_time_simple):C(weather_temperature)[1, night, freezing]",0.0244492939735962
+"sent_centered:C(S2):C(time_time_simple):C(weather_temperature)[1, unknown, freezing]",-0.0144800297583764
+"sent_centered:C(S2):C(time_time_simple):C(weather_temperature)[1, morning, warm]",-0.0381958181756251
+"sent_centered:C(S2):C(time_time_simple):C(weather_temperature)[1, night, warm]",-0.00787304890653036
+"sent_centered:C(S2):C(time_time_simple):C(weather_temperature)[1, unknown, warm]",0.0195131564594008
+"sent_centered:C(S2):C(time_time_simple):C(weather_temperature)[1, morning, hot]",-0.00689035433295131
+"sent_centered:C(S2):C(time_time_simple):C(weather_temperature)[1, night, hot]",-0.0111014702205404
+"sent_centered:C(S2):C(time_time_simple):C(weather_temperature)[1, unknown, hot]",0.0106918545117373
+"sent_centered:C(S2):C(time_time_simple):C(engagement)[1, morning, 1]",-0.0151061088550421
+"sent_centered:C(S2):C(time_time_simple):C(engagement)[1, night, 1]",-0.0204440674046119
+"sent_centered:C(S2):C(time_time_simple):C(engagement)[1, unknown, 1]",0.0222694852765133
+"sent_centered:C(S2):C(situation_major):C(notification_type)[1, unknown, restaurant]",0.0114266312447586
+"sent_centered:C(S2):C(situation_major):C(notification_type)[1, working, restaurant]",-0.0256576074722709
+"sent_centered:C(S2):C(situation_major):C(notification_type)[1, leisure, restaurant]",0.0111120447560026
+"sent_centered:C(S2):C(situation_major):C(notification_type)[1, shopping, restaurant]",0.0164761846851604
+"sent_centered:C(S2):C(situation_major):C(notification_type)[1, morningrituals, restaurant]",-0.0191127777304425
+"sent_centered:C(S2):C(situation_major):C(notification_type)[1, workingout, restaurant]",0.00160526829085073
+"sent_centered:C(S2):C(situation_major):C(notification_type)[1, housework, restaurant]",-0.0136145450539771
+"sent_centered:C(S2):C(situation_major):C(notification_type)[1, social, restaurant]",-0.0181929895077709
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, unknown, unknown]",0.00297669294148215
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, working, unknown]",-0.0167784241254652
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, leisure, unknown]",0.0115627777296439
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, shopping, unknown]",0.0170349450798751
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, morningrituals, unknown]",-0.00636751456653808
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, workingout, unknown]",0.00567676879148982
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, housework, unknown]",0.0107119496532503
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, social, unknown]",0.00373051132834393
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, unknown, freezing]",0.00844129493214409
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, working, freezing]",-0.00151109269668753
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, leisure, freezing]",0.00199148981594503
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, shopping, freezing]",0.01960272322184
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, morningrituals, freezing]",-0.016018560089674
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, workingout, freezing]",0.0100120698281826
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, housework, freezing]",-0.00300893837109177
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, social, freezing]",-0.00780671615607441
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, unknown, warm]",-0.00867272567990326
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, working, warm]",0.00383849920838436
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, leisure, warm]",-0.0142906388343387
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, shopping, warm]",-0.0351448465957495
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, morningrituals, warm]",0.029528001638455
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, workingout, warm]",0.012709928676664
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, housework, warm]",0.00848814566584767
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, social, warm]",0.0104798160737183
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, unknown, hot]",0.0195932068506793
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, working, hot]",-0.0333470648055016
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, leisure, hot]",0.024983061158501
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, shopping, hot]",-0.00537184627116067
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, morningrituals, hot]",-0.000569302347816645
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, workingout, hot]",0.00146437613567314
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, housework, hot]",-0.00584502820410832
+"sent_centered:C(S2):C(situation_major):C(weather_temperature)[1, social, hot]",0.012685164057385
+"sent_centered:C(S2):C(situation_major):C(engagement)[1, unknown, 1]",0.00796804726781381
+"sent_centered:C(S2):C(situation_major):C(engagement)[1, working, 1]",-0.00715597671606741
+"sent_centered:C(S2):C(situation_major):C(engagement)[1, leisure, 1]",0.0143888617890857
+"sent_centered:C(S2):C(situation_major):C(engagement)[1, shopping, 1]",0.0206742727653282
+"sent_centered:C(S2):C(situation_major):C(engagement)[1, morningrituals, 1]",-0.0179985404923818
+"sent_centered:C(S2):C(situation_major):C(engagement)[1, workingout, 1]",0.0108999450064626
+"sent_centered:C(S2):C(situation_major):C(engagement)[1, housework, 1]",-0.010139964094393
+"sent_centered:C(S2):C(situation_major):C(engagement)[1, social, 1]",-0.00919143806640939
+"sent_centered:C(S2):C(notification_type):C(weather_temperature)[1, restaurant, unknown]",0.0135321391393282
+"sent_centered:C(S2):C(notification_type):C(weather_temperature)[1, restaurant, freezing]",-0.0158596824906607
+"sent_centered:C(S2):C(notification_type):C(weather_temperature)[1, restaurant, warm]",0.000853417391559503
+"sent_centered:C(S2):C(notification_type):C(weather_temperature)[1, restaurant, hot]",-0.0148569910592384
+"sent_centered:C(S2):C(notification_type):C(engagement)[1, restaurant, 1]",0.00777454988395459
+"sent_centered:C(S2):C(weather_temperature):C(engagement)[1, unknown, 1]",0.00152966610406742
+"sent_centered:C(S2):C(weather_temperature):C(engagement)[1, freezing, 1]",0.00436198692438708
+"sent_centered:C(S2):C(weather_temperature):C(engagement)[1, warm, 1]",-0.0107640888031933
+"sent_centered:C(S2):C(weather_temperature):C(engagement)[1, hot, 1]",0.0159012572582292
