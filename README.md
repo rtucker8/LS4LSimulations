@@ -13,11 +13,11 @@ These files are the workhorses for the simulation and are specific to a specific
 
 Auxillary files:
 
-- data_generation_seeds.csv provides the seeds that were used to generate each set of patient covariates used in the simulations
-- pymc3_seeds.csv provides the random seeds that were passed to pymc3 to fit bayesian logistic regression
-- true_beta_eval_extreme1_g838.csv provides the true model coefficients for setting 1: no effect modification
-- true_beta_eval_extreme2_g33g.csv provides the truth model coefficients for setting 2: effect modification
-- sim_dat_*.csv provides the contextual covariates at each decision point for each person in the simulation. These are a starting point for the algorithms to run the simulation.
+- data/data_generation_seeds.csv provides the seeds that were used to generate each set of patient covariates used in the simulations
+- data/pymc3_seeds.csv provides the random seeds that were passed to pymc3 to fit bayesian logistic regression
+- data/true_beta_eval_extreme1_g838.csv provides the true model coefficients for setting 1: no effect modification
+- data/true_beta_eval_extreme2_g33g.csv provides the truth model coefficients for setting 2: effect modification
+- data/sim_dat_*.csv provides the contextual covariates at each decision point for each person in the simulation. These are a starting point for the algorithms to run the simulation.
 
 Analysis files:
 
